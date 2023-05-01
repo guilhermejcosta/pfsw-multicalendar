@@ -1,7 +1,7 @@
 version: '3'
 services:
   webservice:
-    container_name: api
+    # container_name: api
     build: .
     ports:
       - "8080:8080"
@@ -12,7 +12,7 @@ services:
     depends_on:
       - 'database'
   database:
-    container_name: 'mysql'
+    # container_name: 'mysql'
     image: mysql:latest
     ports:
       - "3306:3306"
