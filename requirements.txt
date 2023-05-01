@@ -1,0 +1,7 @@
+strawberry-graphql==0.159.0
+strawberry-graphql[debug-server]
+fastapi==0.92.0
+uvicorn==0.20.0
+sqlalchemy==2.0.4
+PyMySQL==1.0.2
+cryptography==39.0.1
